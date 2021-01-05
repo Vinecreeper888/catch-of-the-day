@@ -1,3 +1,4 @@
 .vercel
+.netlify
 node_modules/
 build/

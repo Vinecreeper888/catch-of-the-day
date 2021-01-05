@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "cb875938970aef6ca0ee",
+    "revision": "b5897ad1aa3aded12116",
     "url": "/catch-of-the-day/static/css/main.f4eba2c8.chunk.css"
   },
   {
-    "revision": "cb875938970aef6ca0ee",
-    "url": "/catch-of-the-day/static/js/main.3ade0e01.chunk.js"
+    "revision": "b5897ad1aa3aded12116",
+    "url": "/catch-of-the-day/static/js/main.4a8dfc05.chunk.js"
   },
   {
     "revision": "08bfa76b6b44b31ce8c9",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/catch-of-the-day/static/media/anchor.d2f8799a.svg"
   },
   {
-    "revision": "2bd23bb4a00094601e7a6a23b58d622e",
+    "revision": "7179e1219ce7a8b5b6ca4fbe38f02e9e",
     "url": "/catch-of-the-day/index.html"
   }
 ];

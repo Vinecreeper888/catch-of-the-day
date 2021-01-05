@@ -1,0 +1,31 @@
+.order-enter
+  transform: translateX(-120%) rotate(0)
+  transition 0.5s
+  max-height: 0
+  padding: 0 !important
+  &.order-enter-active
+    max-height 60px
+    transform: translateX(0) rotate(1440deg)
+    padding 2rem 0 !important
+
+.order-exit
+  transition 0.5s
+  transform: translateX(0s)
+  &.order-exit-active
+    transform: translateX(120%)
+    padding: 0
+
+.count-enter
+  transition 0.5s
+  transform translateY(100%)
+  &.count-enter-active  
+    transform translateY(0)
+
+.count-exit
+  transform translateY(0)
+  transition 0.5s
+  postion absolute
+  left 0
+  bottom 0 
+  &.count-exit-active
+    transform translateY(-100%)

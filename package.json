@@ -1,5 +1,6 @@
 {
   "name": "cotd",
+  "homepage":"https://vinecreeper888.github.io/catch-of-the-day",
   "version": "0.0.3",
   "private": true,
   "devDependencies": {
@@ -26,7 +27,9 @@
     "eject": "react-scripts eject",
     "styles": "stylus -u autoprefixer-stylus ./src/css/style.styl -o ./src/css/style.css",
     "now-build": "npm run build && mv build dist",
-    "styles:watch": "npm run styles -- -w"
+    "styles:watch": "npm run styles -- -w",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
